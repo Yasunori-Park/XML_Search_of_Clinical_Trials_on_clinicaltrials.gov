@@ -1,10 +1,10 @@
 library(XML)
 library(methods)
 
-xml_1 <- xmlParse('NCT00000105.xml')
-xml_2 <- xmlParse('NCT00000723.xml')
-xml_3 <- xmlParse('NCT00001219.xml')
-xml_result <- xmlParse('NCT00002735.xml')
+xml_1 <- xmlParse('EXAMPLE_TRIAL_1.xml')
+xml_2 <- xmlParse('EXAMPLE_TRIAL_2.xml')
+xml_3 <- xmlParse('EXAMPLE_TRIAL_3.xml')
+xml_result <- xmlParse('EXAMPLE_TRIAL_4.xml')
 
 #Function to search for element "//results_reference/citation" in xml files
 publication_exist <- function(x){
